@@ -1,0 +1,9 @@
+# Exclude composer files from repo
+vendor
+composer.lock
+
+# Exclude frontend libraries from repo
+public/assets/css/w3.css
+public/assets/css/font-awesome.css
+public/assets/js/jquery.js
+public/assets/webfonts

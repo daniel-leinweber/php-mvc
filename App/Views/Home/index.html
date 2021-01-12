@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block site_css %}{% endblock %}
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+
+    <h1>Welcome {{ name }}</h1>
+
+    <p>These are the colors provided by the controller.</p>
+    <ul>
+        {% for color in colors %}
+            <li>{{ color }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+
+{% block site_js %}
+
+<script>
+</script>
+
+{% endblock %}
