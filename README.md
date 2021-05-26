@@ -48,6 +48,6 @@ The base template ([App/Views/base.html](App/Views/base.html)) will already incl
 
 ### 4. Add your database and site configuration in the **[App/Config.php](App/Config.php)** file
 
-### 5. Create Conrollers, Views and Models as needed under the **[App](App/)** folder
+### 5. Create Controllers, Views and Models as needed under the **[App](App/)** folder
 
 ### 6. Add additional routes in the **[Front-Controller (index.php)](public/index.php)** if neccessary
